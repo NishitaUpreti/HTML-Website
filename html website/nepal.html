@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog - Hiking in Nepal</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .logo {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 500px;
+            background: url('https://assets.cntraveller.in/photos/6621101e437714505a7ebe56/16:9/w_1280,c_limit/GettyImages-1439040510.jpg') no-repeat center center/cover;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        /* Content Section */
+        .content-container {
+            max-width: 1200px;
+            margin: 80px auto 40px;
+            padding: 20px;
+        }
+        
+        .content-section {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+        
+        .text-content {
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .text-content h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .text-content ol {
+            padding-left: 20px;
+            list-style-position: inside;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .text-content ol li {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .text-content ol li:last-child {
+            border-bottom: none;
+        }
+
+        .text-content ol li b {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .text-content ul {
+            padding-left: 20px;
+            list-style-type: circle;
+        }
+
+        .text-content ul li {
+            margin: 5px 0;
+        }
+
+        .text-content ol li:hover {
+            background-color: #f9f9f9;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #000000;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">The Travel Tales</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Hiking in Nepal</h1>
+    </section>
+    
+    <!-- Content Sections -->
+    <div class="content-container">
+        <div class="content-section">
+            <div class="text-content">
+                <h2>Top Hiking Trails in Nepal</h2>
+                <p>Nepal is a trekker's paradise, boasting some of the most breathtaking trails in the world. From the majestic Himalayas to picturesque villages, Nepal offers an unparalleled experience for adventurers.</p>
+                <ol>
+                    <li><b>Everest Base Camp Trek</b>
+                        <p>One of the most iconic treks in the world, the Everest Base Camp trek takes you to the base of the highest peak on Earth. You'll witness stunning views of Everest and the surrounding peaks.</p>
+                        <ul>
+                            <li>Distance: ~130 km (80 miles) round trip</li>
+                            <li>Duration: 12-14 days</li>
+                            <li>Difficulty: Moderate to difficult</li>
+                            <li>Highlights: Kala Patthar viewpoint, Sherpa culture, Sagarmatha National Park</li>
+                        </ul>
+                    </li>
+                    <li><b>Annapurna Circuit Trek</b>
+                        <p>Known for its diverse landscapes, the Annapurna Circuit trek offers a mix of lush green valleys, high mountain passes, and stunning views of the Annapurna range.</p>
+                        <ul>
+                            <li>Distance: ~160-230 km (100-145 miles) depending on the route</li>
+                            <li>Duration: 14-21 days</li>
+                            <li>Difficulty: Moderate</li>
+                            <li>Highlights: Thorong La Pass, Muktinath Temple, diverse terrain</li>
+                        </ul>
+                    </li>
+                    <li><b>Langtang Valley Trek</b>
+                        <p>A short but beautiful trek, the Langtang Valley trek is perfect for those looking for a less crowded trail with rich cultural experiences and stunning mountain views.</p>
+                        <ul>
+                            <li>Distance: ~65 km (40 miles) round trip</li>
+                            <li>Duration: 7-10 days</li>
+                            <li>Difficulty: Moderate</li>
+                            <li>Highlights: Langtang Glacier, Tamang culture, Kyanjin Gompa</li>
+                        </ul>
+                    </li>
+                    <li><b>Best Time to Visit</b>
+                        <ul>
+                            <li><b>Spring (March-May):</b> Blooming rhododendrons and pleasant weather.</li>
+                            <li><b>Autumn (September-November):</b> Clear skies and ideal trekking conditions.</li>
+                        </ul>
+                    </li>
+                    <li><b>Tips for Hikers</b>
+                        <ul>
+                            <li>Acclimatize Properly: Avoid altitude sickness by ascending gradually.</li>
+                            <li>Pack Smart: Include warm clothing, trekking boots, and a first-aid kit.</li>
+                            <li>Respect Local Culture: Learn about Nepalese customs and greet locals with “Namaste.”</li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>Whether you're an experienced trekker or a first-time adventurer, hiking in Nepal is an unforgettable experience!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

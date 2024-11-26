@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .logo {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 500px;
+            background: url('patagonia3.webp') no-repeat center center/cover;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        /* Content Section */
+        .content-container {
+            max-width: 1200px;
+            margin: 80px auto 40px;
+            padding: 20px;
+        }
+        
+        .content-section {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+        
+        .text-content {
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .text-content h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .text-content ol {
+            padding-left: 20px;
+            list-style-position: inside;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .text-content ol li {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .text-content ol li:last-child {
+            border-bottom: none;
+        }
+
+        .text-content ol li b {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .text-content ul {
+            padding-left: 20px;
+            list-style-type: circle;
+        }
+
+        .text-content ul li {
+            margin: 5px 0;
+        }
+
+        .text-content ol li:hover {
+            background-color: #f9f9f9;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #000000;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">The Travel Tales</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Mount Fitz Roy - Patagonia</h1>
+    </section>
+    
+    <!-- Content Sections -->
+    <div class="content-container">
+        <div class="content-section">
+            <div class="text-content">
+                <h2>Mount Fitz Roy Hike in Patagonia</h2>
+                <p>Mount Fitz Roy, also known as Cerro Fitz Roy or Cerro Chaltén, is a stunning peak located in Patagonia, on the border between Argentina and Chile. It’s known for its jagged peaks, challenging hikes, and breathtaking views, drawing trekkers and mountaineers from around the world.</p>
+                <ol>
+                    <li><b>Starting Point: El Chaltén</b>
+                        <p>The hike to Mount Fitz Roy usually begins in El Chaltén, a small town in Argentina known as the "Trekking Capital of Argentina." The town is accessible from El Calafate, a nearby city with bus services connecting the two.</p>
+                    </li>
+                    <li><b>Main Trails</b>
+                        <ul>
+                            <li><b>Laguna de los Tres:</b> This iconic hike provides close-up views of Fitz Roy with a steep final section.
+                                <ul>
+                                    <li>Distance: ~25 km (15.5 miles) round trip</li>
+                                    <li>Duration: 8-10 hours</li>
+                                    <li>Difficulty: Moderate to difficult</li>
+                                </ul>
+                            </li>
+                            <li><b>Laguna Capri:</b> A shorter, easier hike with great views of Fitz Roy.
+                                <ul>
+                                    <li>Distance: ~8 km (5 miles) round trip</li>
+                                    <li>Duration: 2-3 hours</li>
+                                    <li>Difficulty: Moderate</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><b>What to Expect</b>
+                        <ul>
+                            <li><b>Views:</b> Fitz Roy's sharp granite peaks and the pristine Laguna de los Tres.</li>
+                            <li><b>Terrain:</b> Forests, rivers, rocky paths, and steep sections.</li>
+                            <li><b>Weather:</b> Unpredictable and windy—prepare for quick changes.</li>
+                        </ul>
+                    </li>
+                    <li><b>Best Time to Visit</b>
+                        <ul>
+                            <li><b>Summer (Dec-Mar):</b> Stable weather, long daylight hours.</li>
+                            <li><b>Spring/Fall (Oct-Nov, Mar-Apr):</b> Fewer crowds but variable weather.</li>
+                        </ul>
+                    </li>
+                    <li><b>Tips for Hikers</b>
+                        <ul>
+                            <li>Start Early: Enjoy quieter trails and great photography lighting.</li>
+                            <li>Pack Essentials: Water, snacks, sunscreen, and trekking poles.</li>
+                            <li>Respect the Environment: Follow Leave No Trace principles.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>This hike is truly one of the best ways to experience the rugged beauty of Patagonia!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post Example</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding-top: 60px;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #000000b2;
+        z-index: 10;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        margin-left: auto;
+        gap: 15px;
+        color: white;
+    }
+
+    .nav-links li {
+        display: inline;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .post-container {
+        max-width: 800px;
+        margin: 20px auto;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .post-header {
+        background-color: #000;
+        color: #fff;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .post-meta {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .post-content {
+        padding: 15px;
+        display: flex;
+        gap: 15px;
+    }
+
+    .post-image img {
+        max-width: 150px;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    #para {
+        flex: 1;
+        color: #333;
+    }
+
+    #para p {
+        line-height: 1.6;
+    }
+
+    .post-footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+        font-size: 14px;
+        color: #666;
+        border-top: 1px solid #ddd;
+    }
+
+    .add-blog-button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .add-blog-button {
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    .add-blog-button:hover {
+        background-color: #333;
+    }
+</style>
+</head>
+<body>
+<header>
+    <div class="logo"> 
+        <img src="t.png" alt="" id="l1"> The Travel Tales
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</header>
+
+<div class="post-container">
+    <div class="post-header">Shropshire 52 - Shrewsbury - a continued walk around the town/the alleyways/the redundant church</div>
+    <div class="post-meta">
+        <span>November 7th 2024</span>
+        <span>Europe » United Kingdom » England » Shropshire » Shrewsbury</span>
+    </div>
+    <div class="post-content">
+        <div class="post-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/St_Mary_Wythall.jpg/800px-St_Mary_Wythall.jpg" alt="Ancient Saxon wall decorations">
+        </div>
+        <div id="para">
+            <p>Shrewsbury is a historic town in Shropshire, England, celebrated for its medieval architecture and cobblestone streets. Known for its black-and-white timber-framed Tudor buildings, the town also boasts over 660 listed buildings. A visit to the Church of St Mary the Virgin, which now serves as a redundant church, provides insight into stunning stained-glass windows and medieval stonework. Exploring Shrewsbury's alleyways reveals fascinating details about its history, including Saxon influences and vibrant market squares, making it a perfect destination for history lovers.</p>
+        </div>
+    </div>
+    <div class="post-footer">
+        <div>10 Views | Published: November 7th 2024</div>
+        <div>Words: 1231 | Comments: 0 | Photos: 1</div>
+    </div>
+</div>
+
+<div class="post-container">
+    <div class="post-header">Sanbao Village</div>
+    <div class="post-meta">
+        <span>June 7th 2024</span>
+        <span>Asia » China » Jiangxi » Jingdezhen</span>
+    </div>
+    <div class="post-content">
+        <div class="post-image">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/31/16/35/caption.jpg?w=1200&h=-1&s=1" alt="Sanbao Village scenery">
+        </div>
+        <div id="para">
+            <p>Sanbao Village is a picturesque retreat located near Jingdezhen, the porcelain capital of China. This village is known for its peaceful environment and deep connection to the ceramic arts. Surrounded by bamboo forests and mountain streams, Sanbao offers visitors a chance to witness traditional porcelain-making techniques passed down for generations. With its serene landscapes and artistic ambiance, the village is a haven for those seeking to explore Chinese craftsmanship and history.</p>
+        </div>
+    </div>
+    <div class="post-footer">
+        <div>10 Views | Published: June 7th 2024</div>
+        <div>Words: 1271 | Comments: 0 | Photos: 1</div>
+    </div>
+</div>
+
+<div class="post-container">
+    <div class="post-header">Letters from Nigeria - Yola, 1972 November 14 - 25</div>
+    <div class="post-meta">
+        <span>January 8th 2024</span>
+        <span>Africa » Nigeria » Adamawa (state) » Yola</span>
+    </div>
+    <div class="post-content">
+        <div class="post-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/AUN_Campus.jpg" alt="Yola Cityscape">
+        </div>
+        <div id="para">
+            <p>Yola, the capital of Adamawa State in Nigeria, is steeped in culture and tradition. Back in 1972, the city was a quiet town known for its Fulani heritage and vibrant local markets. Today, Yola offers a mix of historical charm and modern development, with scenic views of the Benue River and the surrounding Mandara Mountains. Its traditional villages and cultural festivals make it a key destination for understanding Nigeria’s diverse heritage.</p>
+        </div>
+    </div>
+    <div class="post-footer">
+        <div>10 Views | Published: January 8th 2024</div>
+        <div>Words: 1231 | Comments: 0 | Photos: 1</div>
+    </div>
+</div>
+
+<div class="post-container">
+    <div class="post-header">A Stopover in Dublin On Our Way Back to the US - April 1-6, 2024</div>
+    <div class="post-meta">
+        <span>October 31st 2024</span>
+        <span>Europe » Ireland » County Dublin » Dublin</span>
+    </div>
+    <div class="post-content">
+        <div class="post-image">
+            <img src="https://yugo.com/resource/image/599614/portrait_ratio2x3/600/900/f7c3ca21eecd1def899ae13d4b09db09/E6C6BF3DAEAEB26E07D70EB9591184E0/dublin-city-picture.webp" alt="Dublin city view">
+        </div>
+        <div id="para">
+            <p>Dublin, Ireland's capital, offers a perfect blend of history and modernity. Visitors can explore Trinity College's iconic library, marvel at the historic Book of Kells, or immerse themselves in Irish culture at the Guinness Storehouse. The lively Temple Bar district is perfect for experiencing Dublin's pub culture, while landmarks like Dublin Castle highlight its medieval past. With its friendly locals and cultural richness, Dublin is an unforgettable destination.</p>
+        </div>
+    </div>
+    <div class="post-footer">
+        <div>10 Views | Published: October 31st 2024</div>
+        <div>Words: 1271 | Comments: 0 | Photos: 1</div>
+    </div>
+</div>
+<div class="add-blog-button-container">
+    <button class="add-blog-button" onclick="alert('Redirecting to add a blog!')">Add Blog</button>
+</div>
+</body>
+</html>
